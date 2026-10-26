@@ -44,6 +44,8 @@ body{
     border: solid 1px #f3f4f6;
     border-radius: 20px;
     background-color: #f3f4f6;
+    text-align: right;
+    padding-right: 20px;
 }
 
 .nav-search-bar input::placeholder{
@@ -68,7 +70,7 @@ body{
 }
 
 .nav-logo img{
-    width: 100px;
+    width: 150px;
     height: 100%;
 }
 
@@ -79,20 +81,20 @@ body{
 
 .hero-section-main{
     /* optmize-background-img */
-    width: 98%;
+    width: 95%;
     height: 450px;
-    margin: 0 20px;
+    margin: 0 0px;
     background-image: url(image/WhatsApp\ Image\ 2026-10-25\ at\ 12.51.34\ AM.jpeg);
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     border-radius: 15px;
     /* optmize-text-logo */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 50px;
+    padding-left: 100px;
     
 }
 
@@ -132,6 +134,19 @@ body{
     height: 100px;
     padding: 10px;
     border-radius: 12px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2, 50%);
+    row-gap: 20px;
+    cursor: pointer;
+}
+
+.sections-photo{
+
+}
+
+.sections-text{
+    
 }
 
 .sections img{
@@ -144,6 +159,8 @@ body{
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
+    padding: 0 10px;
+    margin: 15px 5px;
 }
 
 .line-text1{
@@ -158,4 +175,104 @@ body{
     display: inline-block;
 }
 
+.buy-main{
 
+}
+
+.buy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.buy-card{
+    display: flex;
+    flex-direction: column;
+    /* justify-content:flex-end; */
+    align-items: flex-end;
+    background-color: rgb(208, 205, 205);
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px black;
+    width: 240px;
+    height: 220px;
+}
+
+.buy-img{
+    margin-bottom: 15px;
+    width: 100%;
+    height: 50px;
+}
+
+.buy-img{
+    width: 100%;
+    height: 100px; 
+}
+
+.buy-text{
+    padding: 0 5px;
+    text-align: right;
+    justify-self: center;
+    margin-bottom: 15px;
+}
+
+.buy-btn{
+width: 100%;
+justify-self: flex-end;
+padding: 0 5px;
+}
+
+.buy-btn button{
+    width: 100%;
+    height: 25px;
+    background-color: #105C35;
+    border-radius: 5px;
+    border: 1px solid #105C35;
+    cursor: pointer;
+    color: white;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #105C35;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer-main{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.footer-logo img{
+    width: 115px;
+    height: 100%;
+}
+
+.footer-links{
+    
+}
+
+.footer-links ul{
+    list-style: none;
+}
+
+.footer-links li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: white;
+}
